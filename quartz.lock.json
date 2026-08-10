@@ -1,0 +1,11 @@
+{
+  "version": "1.0.0",
+  "plugins": {
+    "favicon": {
+      "source": "github:quartz-community/favicon",
+      "resolved": "https://github.com/quartz-community/favicon.git",
+      "commit": "6d41af0e5073bd760787340b7892ec5f351c24c4",
+      "installedAt": "2026-08-10T22:27:56.987Z"
+    }
+  }
+}
