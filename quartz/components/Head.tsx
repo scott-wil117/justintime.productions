@@ -43,7 +43,7 @@ export default (() => {
 
     return (
       <head>
-        <title>{title}</title>
+        <title>{displayTitle}</title>
         <meta charSet="utf-8" />
         {coreStylesheet && <link rel="preload" href={coreStylesheet} as="style" />}
         {coreScript && coreScript.contentType === "external" && (
@@ -63,7 +63,7 @@ export default (() => {
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
         <meta name="og:site_name" content={cfg.pageTitle}></meta>
-        <meta property="og:title" content={title} />
+        <meta property="og:title" content={displayTitle} />
         <meta property="og:type" content="website" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content={title} />
