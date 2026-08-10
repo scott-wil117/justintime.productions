@@ -16,7 +16,7 @@ export default (() => {
     const title =
       fileData.frontmatter?.title ?? i18n(cfg.locale).propertyDefaults.title
     const isIndex =
-      ileData.slug === "index"
+      fileData.slug === "index"
     const displayTitle = 
       isIndex ? cfg.pageTitle : `${cfg.pageTitle} - ${title}`
     
