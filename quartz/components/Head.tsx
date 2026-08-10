@@ -14,8 +14,7 @@ export default (() => {
   }: QuartzComponentProps) => {
     const titleSuffix = cfg.pageTitleSuffix ?? ""
     const title = fileData.frontmatter?.title ?? i18n(cfg.locale).propertyDefaults.title
-    const isIndex = fileData.slug === "index"
-    const displayTitle = isIndex ? cfg.pageTitle : `${cfg.pageTitle} - ${title}`
+    const displayTitle = pageTitle ? `${cfg.pageTitle} - ${title}` : title
     
     const description =
       fileData.frontmatter?.socialDescription ??
