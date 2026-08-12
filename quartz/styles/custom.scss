@@ -1,3 +1,13 @@
 @use "./variables.scss" as *;
 
 // put your custom CSS here!
+
+/* 1. Style the banner image so it stretches beautifully */
+img[alt="Homepage Banner"] {
+  width: 100%;
+  max-height: 400px; /* Adjust height to your liking */
+  object-fit: cover;
+  border-radius: 12px;
+  margin-bottom: 2rem;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
