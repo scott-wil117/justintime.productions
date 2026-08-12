@@ -1,7 +1,7 @@
 # yaml-language-server: $schema=./quartz/plugins/quartz-plugins.schema.json
 configuration:
-  pageTitle: Just In Time Productions
-  pageTitleSuffix: ""
+  pageTitle: Just In Time
+  pageTitleSuffix: "Productions"
   enableSPA: true
   enablePopovers: true
   analytics:
